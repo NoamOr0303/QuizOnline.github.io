@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0; /* Ensures the background covers the entire viewport without any margin */
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    color: #333; /* Sets a default text color that's visible on the background */
+}
+
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50; /* A green background for buttons */
+    color: white; /* White text color for buttons */
+}
+
+#question, #feedback {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Adds space below the question and feedback */
+}
+
+#timer {
+    font-weight: bold;
+}
